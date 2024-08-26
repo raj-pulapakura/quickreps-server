@@ -7,7 +7,7 @@ export class AppController {
   @Get()
   healthCheck() {
     return {
-      message: 'API is up and running',
+      message: 'API is up and running!',
     };
   }
 }
